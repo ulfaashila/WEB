@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+}
+
+.judul{
+
+    background-color: #751975;
+    color: white;
+    border-collapse: collapse;
+
+}
+
+.judul, th, td{
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
+
+.isi-1{
+    background-color: #f0e6f0;
+}
+
+.isi-3{
+    background-color: #dda0dd;
+}
+
+.isi-2, .isi-4{
+    background-color: #FFC0CB;
+}
+
+.isi-1:hover, .isi-2:hover, .isi-3:hover, .isi-4:hover{
+    background-color: #f0e6f0;
+}

@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0 0 40px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+  }
+  
+  /* header content */
+  .container {
+    width: 80%;
+    margin: 0 15%;
+  }
+  
+  .clearfix{
+    clear: both;
+  }
+  
+  .header {
+    position: relative;
+    width: 100%;
+    background-color: #0226fd;
+    padding: 50px;
+  }
+  
+  .header h1 {
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  
+  /* navbar */
+  .navbar {
+    background-color: #3552fd;
+    color: #fff;
+    top: 0;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 999;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .navbar li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 30px;
+  }
+  
+  .navbar li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover{
+    font-weight: bold;
+  }
+  
+  /*isi artikel */
+
+  .main-content {
+    float: left;
+    width: 82%;
+    margin: 10px 0;
+    margin-left: 10px;
+    padding: 20px;
+    border: 3px solid #d4d4d4;
+    border-radius: 5px;
+  }
+
+  .content{
+    padding: 5px;
+  }
+
+  .img-content{
+    width: fit-content;
+  }
+  
+  /* Sidebar style */
+  .image-me{
+    width: 200px;
+    margin-left: 2,5%;
+  }
+  
+  .sidebar {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid #d4d4d4;
+    border-radius: 5px;
+  }
+
+  .profile h3{
+    text-align: center;
+  }
+  
+  
+  /* footer style*/
+  .footer{
+      padding: 10px;
+      margin-top: 20px;
+      color: white;
+      background-color: #0226fd;
+      text-align: center;
+    }
+
+
+    /*from style*/
+    .main-form{
+      float: left;
+      width: 82%;
+      margin: 10px 0;
+      margin-left: 10px;
+      padding: 20px;
+      border: 3px solid #d4d4d4;
+      border-radius: 5px;
+    }
+
+    .form{
+      margin: 20px;
+    }
+    
+
+    .name{
+      width: 100%;
+      padding: 15px;
+      border: 3px solid #d4d4d4;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .kota{
+      width: 100%;
+      padding: 15px;
+      border: 3px solid #d4d4d4;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .pesan{
+      width: 100%;
+      padding: 10px;
+      border: 3px solid #d4d4d4;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .submit{
+      width: 100%;
+      padding: 5px;
+      border: 3px solid #d4d4d4;
+      border-radius: 5px;
+      background-color: #0226fd;
+    }
+
+    .submit h3{
+      color: #fff;
+    }
+
+    

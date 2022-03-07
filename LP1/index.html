@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan desain dan pemrograman web - 2</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <!-- Judul -->
+    <h1>"My Shoes" Contest Entry Form</h1>
+
+    <!-- deskripsi -->
+    
+    <p>Want to trade in your old sneakers for a custom pair of Forcefields ? Make a
+    case for why your shoes <em>have got to</em> go and you may be one of ten lucky
+    winners</p>
+
+    <!-- Ubah method dan action -->
+      <fieldset>
+        <!-- legend -->
+       <legend>Contest Entry Information</legend><br>
+          <nav><label for="fname">Name:</label>
+          <input type="text" name="fname" /><br />
+          <label for="email">Email Address:</label>
+          <input type="email" name="email"  /><br />
+          <label for="number">Telephone Number:</label>
+          <input type="number" name="number" /><br /></nav>
+        <footer></footer>
+          <!-- END of template -->
+
+        <!-- lengkapi textarea berikut -->
+        <label for="description">
+          <!-- tulis nama form dibawah ini -->
+          My shoes are SO old...
+          <br>
+          <!-- isi cols, palceholder, dan rows -->
+          <textarea
+            name="description"
+            cols="50"
+            placeholder="No more than 300 characters long"
+            rows="3"
+          ></textarea>
+        </label>
+      </fieldset>
+
+      <!-- title -->
+      <h3>Design your custom Forefields</h3>
+
+      <fieldset>
+        <!-- legend -->
+        <legend>Custom Shoe Design</legend>
+        <fieldset class="color">
+          <!-- legend -->
+          <legend>Color <em>(choose one):</em></legend> 
+
+          <ul style="list-style: none">
+            <!-- template input -->
+            <li><input type="radio" name="Red" value="Red" />Red</li>
+            <li><input type="radio" name="Blue" value="Blue" />Blue</li>
+            <li><input type="radio" name="Black" value="Black" />Black</li>
+            <li><input type="radio" name="Silver" value="Silver" />Silver</li>
+          </ul>
+
+        </fieldset>
+        <fieldset class="features">
+          <!-- legend -->
+          <legend>Features <em>(choose as many as you want)</em></legend> 
+          <ul style="list-style: none">
+            <!-- template input -->
+            <li><input type="checkbox" name="features" value="Sparkley laces" />Sparkley laces</li>
+            <li><input type="checkbox" name="features" value="Metallic logo" />Metallic logo</li>
+            <li><input type="checkbox" name="features" value="Light-Up heels" />Light-Up heels</li>
+            <li><input type="checkbox" name="features" value="MP3-enabled" />MP3-enabled</li>
+          </ul>
+        </fieldset>
+        <fieldset class="size">
+          <!-- size -->
+          <legend>Size</legend>
+          <label for="number">Sizes reflect standard men's sizes</label>
+          <!-- isi nilai min dan max -->
+          <input type="number" min="5" max="9" />
+        </fieldset>
+      </fieldset><br>
+      <a href="hasil.html">
+      <input type="submit" value="Submit" />
+      </a>
+      <input type="reset" value="reset" />
+  </body>
+</html>
